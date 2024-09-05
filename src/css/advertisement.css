@@ -1,0 +1,102 @@
+.advertisement {
+  background-color: #0c0c0c;
+  background-image: url('./img/advertisement_img/advertisement-mobi.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 80px 0;
+  border-radius: 30px;
+  max-width: 335px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2ddpx),
+  (min-resolution: 192dpi) {
+  .advertisement {
+    background-image: url('./img/advertisement_img/advertisement-mobi-2x.png');
+  }
+}
+.advertisement-title {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  max-width: 279px;
+  margin-bottom: 28px;
+}
+.advertisement-span {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  min-width: 160px;
+  height: 48px;
+}
+@media screen and (min-width: 768px) {
+  .advertisement {
+    background-image: url('./img/advertisement_img/advertisement-tab.png');
+    max-width: 704px;
+    opacity: 80%;
+    color: transparent;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2ddpx),
+    (min-resolution: 192dpi) {
+    .advertisement {
+      background-image: url('./img/advertisement_img/advertisement-tab-2x.png');
+    }
+  }
+  .advertisement-text {
+    max-width: 576px;
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    padding: 83px 0;
+    max-width: 1150px;
+    background-image: url('./img/advertisement_img/advertisement-desc.png');
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2ddpx),
+    (min-resolution: 192dpi) {
+    .advertisement {
+      background-image: url('./img/advertisement_img/advertisement-desc-2x.png');
+    }
+  }
+  .advertisement-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .advertisement-text {
+    max-width: 690px;
+    margin: 0;
+  }
+}
