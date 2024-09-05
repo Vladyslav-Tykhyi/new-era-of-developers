@@ -1,0 +1,40 @@
+.about-us {
+  margin-bottom: 60px;
+}
+.text-container {
+  background: #f3f3f3;
+  border-radius: 30px 30px 30px 30px;
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+.about-us-title {
+  color: #0c0c0c;
+  font-size: 32px;
+  font-style: normal;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -1px;
+  text-transform: none;
+  padding-bottom: 28px;
+  padding-top: ;
+}
+.about-us-text-one {
+  padding-bottom: 20px;
+}
+.about-us-text-two {
+  padding-bottom: 40px;
+}
+.about-us-link {
+}
+.img-about-us {
+  max-width: 375px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px 30px 30px 30px;
+}
