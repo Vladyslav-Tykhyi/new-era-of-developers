@@ -29,18 +29,28 @@
 }
 
 .img-scroll {
-position: relative;
+  display: flex;
+  max-width: 335px;
+  margin-bottom: 28px;
+  justify-content: space-between;
+  align-items: end;
 }
 
- .john-wax {
+.victoria-romashenko {
   position: absolute;
   top: 0;
   left: 0;
 }
+.john-wax {
+  position: absolute;
+  top: 0;
+  left: 32px;
+}
+
 .anastasia-trachuk {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 64px;
 }
 
 .hero-list-item-img {
@@ -49,19 +59,12 @@ position: relative;
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
-
-  
-}
-
-.img-scroll {
-  display: flex;
-  max-width: 335px;
-  margin-bottom: 28px;
-  justify-content: space-between;
-  align-items: end;
 }
 
 .hero-text-scroll {
+  display: flex;
+  margin-bottom: 28px;
+  justify-content: end;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -77,5 +80,86 @@ position: relative;
 .hero-rectangle-img {
   border-radius: 30px;
   width: 335px;
-  background-color: rgba(12, 12, 12, 0.2), url('path_to_image');
+  background-color: rgba(12, 12, 12, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .img-scroll {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-tomb {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .hero-tomb-title {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .hero-title {
+    max-width: 557px;
+
+    font-size: 70px;
+  }
+
+  .hero-text {
+    max-width: 480px;
+
+    font-size: 16px;
+    line-height: 0.85714;
+
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 28px;
+  }
+  .hero-rectangle-img {
+    border-radius: 50px;
+    width: 704px;
+    background-color: rgba(12, 12, 12, 0.2);
+  }
+
+  .victoria-romashenko {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .john-wax {
+    position: absolute;
+    top: 0;
+    left: 32px;
+  }
+
+  .anastasia-trachuk {
+    position: absolute;
+    top: 0;
+    left: 64px;
+  }
+
+  .hero-text-scroll {
+    line-height: 1;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-tomb {
+    padding-bottom: 100px;
+  }
+
+  .hero-title {
+    max-width: 597px;
+
+    font-size: 72px;
+  }
+
+  .hero-rectangle-img {
+    border-radius: 50px;
+    width: 1128px;
+    background-color: rgba(12, 12, 12, 0.2);
+  }
 }
