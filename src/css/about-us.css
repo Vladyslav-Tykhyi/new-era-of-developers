@@ -4,89 +4,50 @@
 .text-container {
   background: #f3f3f3;
   border-radius: 30px 30px 30px 30px;
-  /* width: 100%; */
   height: auto;
-  padding-top: 40px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  padding-left: 20px;
+  padding: 40px 20px;
+  margin-bottom: 20px;
 }
 .about-us-title {
   color: #0c0c0c;
-  font-size: 32px;
-  font-style: normal;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: -1px;
   text-transform: none;
   padding-bottom: 28px;
-  padding-top: ;
+  font: 600 32px / 1 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
 }
 .about-us-text-one {
   padding-bottom: 20px;
   color: #0c0c0c;
-  font-size: 16px;
-  font-style: normal;
   margin-top: 0;
   text-align: left;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  line-height: 20px;
   margin-bottom: 0;
-  letter-spacing: -1px;
   text-transform: none;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
 }
 .about-us-text-two {
   padding-bottom: 40px;
   color: #0c0c0c;
-  font-size: 16px;
-  font-style: normal;
   margin-top: 0;
   text-align: left;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  line-height: 20px;
   margin-bottom: 0;
-  letter-spacing: -1px;
   text-transform: none;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
 }
-.about-us-link {
-  color: #fbfbfb;
-  font-size: 14px;
-  font-style: normal;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 0;
-  text-transform: none;
-  background: #3350e9;
+
+.about-link-text {
   border-radius: 16px;
   width: 160px;
   height: 48px;
-}
-.about-us-link:hover,
-.about-us-link:focus {
-  background-color: #1f3cd4;
-}
-.about-link-text {
-  display: block;
-  text-align: center;
+  background-color: #3350e9;
   padding: 15px 37px;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  text-align: center;
+  color: #fbfbfb;
 }
-/* .img-about-us {
-  max-width: 375px;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  border-radius: 30px 30px 30px 30px;
-} */
-.img-container {
-  border-radius: 30px 30px 30px 30px;
-  /* width: 100%; */
-  height: auto;
-  padding-top: 40px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  padding-left: 20px;
+
+.about-link-text:hover,
+.about-link-text:hover {
+  background-color: #1f3cd4;
 }
