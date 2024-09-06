@@ -40,10 +40,9 @@ a,
 a:visited {
   text-decoration: none;
   color: currentColor;
+  font-style: normal;
 }
-a:hover {
-  text-decoration: none;
-}
+
 ul,
 ol {
   list-style: none;
