@@ -1,0 +1,157 @@
+.footer {
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 28px 28px 28px;
+}
+
+.footer-box {
+  margin: 0 auto;
+  width: 279px;
+}
+
+.footer-top {
+  padding-bottom: 24px;
+}
+
+.footer-logo {
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.footer-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.footer-item {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 1;
+  fill: #fff;
+}
+
+.footer-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+  fill: #fbfbfb;
+}
+
+.footer-contact {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+  margin-bottom: 40px;
+}
+
+.footer-phone {
+  display: block;
+  padding: 14px 20px;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-menu {
+  display: flex;
+  width: 100%;
+  padding-top: 92px;
+}
+
+.footer-menu-box {
+  padding-right: 49px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 16px;
+  width: 147px;
+}
+
+.footer-menu-item {
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-menu-link {
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-menu-address {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+.footer-menu-text {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+}
+
+.footer-bottom {
+  display: flex;
+  border-top: 1px solid rgba(251, 251, 251, 0.1);
+}
+
+.footer-bottom-list {
+  padding-top: 24px;
+}
+
+.footer-bottom-item {
+  gap: 8px;
+}
+
+.footer-bottom-text {
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.9;
+}
+
+.footer-bottom-privacy {
+  padding-left: 20px;
+}
