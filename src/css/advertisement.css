@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   padding: 80px 0;
   border-radius: 30px;
   max-width: 335px;
@@ -42,7 +42,6 @@
   color: rgba(251, 251, 251, 0.5);
 }
 .advertisement-link {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
@@ -64,6 +63,7 @@
   .advertisement {
     background-image: url('/img/advertisement_img/advertisement-tab.png');
     max-width: 704px;
+    margin-bottom: 80px;
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
@@ -83,6 +83,7 @@
   .advertisement {
     padding: 80px 0;
     max-width: 1150px;
+    margin-bottom: 100px;
     background-image: url('/img/advertisement_img/advertisement-desc.png');
   }
   @media screen and (-webkit-min-device-pixel-ratio: 2),
