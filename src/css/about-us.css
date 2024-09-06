@@ -4,7 +4,7 @@
 .text-container {
   background: #f3f3f3;
   border-radius: 30px 30px 30px 30px;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   padding-top: 40px;
   padding-right: 20px;
@@ -25,16 +25,68 @@
 }
 .about-us-text-one {
   padding-bottom: 20px;
+  color: #0c0c0c;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  text-transform: none;
 }
 .about-us-text-two {
   padding-bottom: 40px;
+  color: #0c0c0c;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  text-transform: none;
 }
 .about-us-link {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-transform: none;
+  background: #3350e9;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
 }
-.img-about-us {
+.about-us-link:hover,
+.about-us-link:focus {
+  background-color: #1f3cd4;
+}
+.about-link-text {
+  display: block;
+  text-align: center;
+  padding: 15px 37px;
+}
+/* .img-about-us {
   max-width: 375px;
   height: auto;
   margin: 0 auto;
   display: block;
   border-radius: 30px 30px 30px 30px;
+} */
+.img-container {
+  border-radius: 30px 30px 30px 30px;
+  /* width: 100%; */
+  height: auto;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
 }
