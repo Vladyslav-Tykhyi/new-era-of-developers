@@ -1,8 +1,6 @@
 .hero-tomb {
-
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .hero-title {
@@ -22,7 +20,7 @@
 
 .hero-text {
   max-width: 335px;
-  font-weight: 500;
+
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -31,30 +29,39 @@
 }
 
 .img-scroll {
-display: block;
+position: relative;
+}
 
-.hero-list {
-display: flex;
+ .john-wax {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+.anastasia-trachuk {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 .hero-list-item-img {
-    width: 44px;
-    height: 44px;
-    border-radius: 100%;
-stroke-width: 2px;
-stroke: #fbfbfb;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #fbfbfb;
 
+  
 }
-
 
 .img-scroll {
-display: flex;
-justify-content: space-between;
-max-width: 335px;
-margin-bottom: 28px;}
+  display: flex;
+  max-width: 335px;
+  margin-bottom: 28px;
+  justify-content: space-between;
+  align-items: end;
+}
 
 .hero-text-scroll {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
@@ -62,15 +69,13 @@ margin-bottom: 28px;}
   text-decoration-skip-ink: none;
   color: #0c0c0c;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-.hero-text-scroll:hover, 
+.hero-text-scroll:hover,
 .hero-text-scroll:focus {
-color: #3350e9;
-
+  color: #3350e9;
 }
 .hero-rectangle-img {
-    border-radius: 30px;
-    width: 335px;
-    background-color: rgba(12, 12, 12, 0.2), url("path_to_image");
+  border-radius: 30px;
+  width: 335px;
+  background-color: rgba(12, 12, 12, 0.2), url('path_to_image');
 }
