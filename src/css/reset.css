@@ -1,3 +1,62 @@
+/* Refreshing */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-clear-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: currentColor;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+address {
+  font-style: normal;
+}
+img {
+  vertical-align: top;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 h1,
 h2,
 h3,
@@ -7,26 +66,12 @@ h6,
 p {
   margin: 0;
 }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+input {
+  font-family: inherit;
 }
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
 button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  font-family: inherit;
+  color: currentColor;
 }
 html {
   scroll-behavior: smooth;
