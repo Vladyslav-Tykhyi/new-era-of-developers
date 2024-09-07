@@ -1,0 +1,103 @@
+.about-us {
+  margin-bottom: 60px;
+}
+.text-container {
+  background: #f3f3f3;
+  border-radius: 30px;
+  height: auto;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+.about-us-title {
+  color: #0c0c0c;
+  text-transform: none;
+  padding-bottom: 28px;
+  font: 600 32px / 1 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
+}
+.about-us-text-one {
+  max-width: 295px;
+  padding-bottom: 20px;
+  color: #0c0c0c;
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+  text-transform: none;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
+}
+.about-us-text-two {
+  max-width: 295px;
+  padding-bottom: 40px;
+  color: #0c0c0c;
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+  text-transform: none;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.about-link-text {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  padding: 15px 37px;
+  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.about-link-text:hover,
+.about-link-text:hover {
+  background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    margin-bottom: 80px;
+  }
+  .text-container {
+    padding: 80px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    max-width: 584px;
+    min-height: 352px;
+  }
+  .about-us-title {
+    padding-bottom: 40px;
+    font: 600 48px / 0.91667 'Gilroy', sans-serif;
+  }
+  .about-us-text-one {
+    max-width: 584px;
+    font: 500 16px / 1.25 'Gilroy', sans-serif;
+  }
+  .about-us-text-two {
+    max-width: 584px;
+    font: 500 16px / 1.25 'Gilroy', sans-serif;
+    padding-bottom: 60px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .text-container {
+    margin: 0px;
+    max-width: 460px;
+  }
+  .about-us {
+    margin-bottom: 100px;
+  }
+  .img-about-us {
+    width: 530px;
+  }
+}
