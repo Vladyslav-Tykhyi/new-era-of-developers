@@ -13,6 +13,8 @@ body {
   font-family: 'Girloy', sans-serif;
   box-sizing: border-box;
   background: #fbfbfb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {

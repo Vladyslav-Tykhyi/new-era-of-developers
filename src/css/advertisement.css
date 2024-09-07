@@ -16,6 +16,9 @@
     background-image: url('/img/advertisement_img/advertisement-mobi-2x.png');
   }
 }
+.advertisement > .container {
+  padding: 0 28px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -35,7 +38,6 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  max-width: 279px;
   margin-bottom: 28px;
 }
 .advertisement-span {
@@ -44,7 +46,6 @@
 .advertisement-link {
   font-size: 14px;
   line-height: 1.29;
-  text-align: center;
   color: #fbfbfb;
   padding: 15px 44px;
   border: 1px solid rgba(251, 251, 251, 0.15);
@@ -74,8 +75,11 @@
       background-image: url('/img/advertisement_img/advertisement-tab-2x.png');
     }
   }
+
+  .advertisement > .container {
+    padding: 0 64px;
+  }
   .advertisement-text {
-    max-width: 576px;
     font-size: 48px;
     line-height: 0.9;
     margin-bottom: 32px;
@@ -95,14 +99,15 @@
       background-image: url('/img/advertisement_img/advertisement-desc-2x.png');
     }
   }
+  .advertisement > .container {
+    padding: 0 80px;
+  }
   .advertisement-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 80px;
   }
   .advertisement-text {
-    max-width: 690px;
     margin: 0;
   }
 }
