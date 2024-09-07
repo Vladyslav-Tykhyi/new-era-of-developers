@@ -3,7 +3,7 @@
 }
 .text-container {
   background: #f3f3f3;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px;
   height: auto;
   padding: 40px 20px;
   margin-bottom: 20px;
@@ -50,4 +50,31 @@
 .about-link-text:hover,
 .about-link-text:hover {
   background-color: #1f3cd4;
+}
+@media screen and (min-width: 768px) {
+  .about-us {
+    margin-bottom: 80px;
+  }
+  .text-container {
+    padding: 80px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+  }
+  .about-us-title {
+    padding-bottom: 40px;
+    font: 600 48px / 0.91667 'Gilroy', sans-serif;
+  }
+  .about-us-text-one {
+    font: 500 16px / 1.25 'Gilroy', sans-serif;
+  }
+  .about-us-text-two {
+    font: 500 16px / 1.25 'Gilroy', sans-serif;
+    padding-bottom: 60px;
+  }
+  .img-about-us {
+    border-radius: 50px;
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1158px) {
 }
