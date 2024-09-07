@@ -3,8 +3,8 @@
 }
 .reviews-title {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.92;
+  font-size: 32px;
+  line-height: 100%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 24px;
@@ -19,8 +19,6 @@
   background-color: #f3f3f3;
   border-radius: 30px;
   padding: 32px 36px;
-  width: 335px;
-  text-align: center;
 }
 .reviews-list-item:not(:first-child) {
   display: none;
@@ -30,6 +28,7 @@
   border-radius: 50%;
 }
 .reviews-list-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -40,7 +39,7 @@
 .reviews-list-text {
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
 }
@@ -55,7 +54,7 @@
     gap: 16px;
   }
   .reviews-list-item {
-    width: 344px;
+    flex-basis: calc((100% - 16px) / 2);
   }
   .reviews-list-item:not(:first-child) {
     display: flex;
@@ -78,7 +77,7 @@
     gap: 20px;
   }
   .reviews-list-item {
-    width: 370px;
+    flex-basis: calc((100% - 40px) / 3);
   }
   .reviews-list-item:last-child {
     display: flex;
