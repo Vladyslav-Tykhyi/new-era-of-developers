@@ -22,7 +22,7 @@
   max-width: 335px;
 
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
@@ -30,27 +30,14 @@
 
 .img-scroll {
   display: flex;
-  max-width: 335px;
   margin-bottom: 28px;
   justify-content: space-between;
   align-items: end;
 }
-
-.victoria-romashenko {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.john-wax {
-  position: absolute;
-  top: 0;
-  left: 32px;
-}
-
-.anastasia-trachuk {
-  position: absolute;
-  top: 0;
-  left: 64px;
+.hero-list {
+  position: relative;
+  height: 44px;
+  width: 200px;
 }
 
 .hero-list-item-img {
@@ -62,11 +49,8 @@
 }
 
 .hero-text-scroll {
-  display: flex;
-  margin-bottom: 28px;
-  justify-content: end;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -84,44 +68,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .img-scroll {
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-tomb {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-
-  .hero-tomb-title {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .hero-title {
-    max-width: 557px;
-
-    font-size: 70px;
-  }
-
-  .hero-text {
-    max-width: 480px;
-
-    font-size: 16px;
-    line-height: 0.85714;
-
-    color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
-  }
-  .hero-rectangle-img {
-    border-radius: 50px;
-    width: 704px;
-    background-color: rgba(12, 12, 12, 0.2);
-  }
-
   .victoria-romashenko {
     position: absolute;
     top: 0;
@@ -139,6 +85,52 @@
     top: 0;
     left: 64px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-tomb {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .hero-tomb-hero {
+    display: flex;
+    margin-bottom: 38px;
+  }
+  .img-scroll {
+    margin-bottom: 0;
+
+    flex-direction: column;
+  }
+
+  .hero-list {
+    width: 136px;
+  }
+
+  .hero-title {
+    max-width: 577px;
+    line-height: 0.86;
+    font-size: 70px;
+  }
+
+  .hero-text {
+    max-width: 480px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: rgba(12, 12, 12, 0.7);
+  }
+
+  .hero-list-item-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-rectangle-img {
+    border-radius: 50px;
+    width: 704px;
+    background-color: rgba(12, 12, 12, 0.2);
+  }
 
   .hero-text-scroll {
     line-height: 1;
@@ -146,20 +138,70 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+.victoria-romashenko {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+.john-wax {
+  position: absolute;
+  top: 0;
+  right: 39px;
+}
+
+.anastasia-trachuk {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 1280px) {
   .hero-tomb {
     padding-bottom: 100px;
   }
 
+  .hero-tomb-hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .hero-title {
     max-width: 597px;
-
+    line-height: 0.88;
     font-size: 72px;
+  }
+
+  .hero-list-item-img {
+    width: 60px;
+    height: 60px;
   }
 
   .hero-rectangle-img {
     border-radius: 50px;
-    width: 1128px;
+    width: 1150px;
     background-color: rgba(12, 12, 12, 0.2);
+  }
+
+  .hero-list {
+    width: 146px;
+  }
+
+  .victoria-romashenko {
+    position: absolute;
+    top: 0;
+    right: 86px;
+  }
+
+  .john-wax {
+    position: absolute;
+    top: 0;
+    right: 42px;
+  }
+
+  .anastasia-trachuk {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

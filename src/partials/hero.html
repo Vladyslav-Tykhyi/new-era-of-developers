@@ -1,43 +1,116 @@
 <section class="hero">
   <div class="container hero-tomb">
-    <div class="hero-tomb-title">
-      <h1 class="hero-title">
-        Welcome to our <span class="hero-title-span"> collection </span>of
-        premium watches
-      </h1>
-      <p class="hero-text">
-        Our watches are not just timepieces, but also an expression of your
-        personality and lifestyle. From classic designs to modern ones, we have
-        a watch to suit every taste and occasion.
-      </p>
-    </div>
-    <div class="img-scroll">
-      <ul class="hero-list">
-        <li class="hero-list-item victoria-romashenko">
-          <img
-            class="hero-list-item-img"
-            src="./img/hero/victoria-romashenko-1x.jpg"
-            alt="victoria-romashenko"
-          />
-        </li>
-        <li class="hero-list-item john-wax">
-          <img
-            class="hero-list-item-img"
-            src="./img/hero/john-wax-1x.jpg"
-            alt="john-wax"
-          />
-        </li>
-        <li class="hero-list-item anastasia-trachuk">
-          <img
-            class="hero-list-item-img"
-            src="./img/hero/anastasia-trachuk-1x.jpg"
-            alt="anastasia-trachuk"
-          />
-        </li>
-      </ul>
-    </div>
-    <a class="hero-text-scroll" href="#footer">Scroll down</a>
+    <div class="hero-tomb-hero">
+      <div class="hero-tomb-title">
+        <h1 class="hero-title">
+          Welcome to our <span class="hero-title-span"> collection </span>of
+          premium watches
+        </h1>
+        <p class="hero-text">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="img-scroll">
+        <ul class="hero-list">
+          <li class="hero-list-item victoria-romashenko">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/victoria-romashenko-1x.png 1x,
+                  ./img/hero/victoria-romashenko-2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/tablet/victoria-romashenko-tablet-1x.png 1x,
+                  ./img/hero/tablet/victoria-romashenko-tablet-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/mobile/victoria-romashenko-mobile-1x.jpg 1x,
+                  ./img/hero/mobile/victoria-romashenko-mobile-2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/hero/victoria-romashenko-1x.png"
+                class="hero-list-item-img"
+                alt="victoria-romashenko"
+              />
+            </picture>
+          </li>
 
+          <li class="hero-list-item john-wax">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/john-wax-1x.png 1x,
+                  ./img/hero/john-wax-2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/tablet/john-wax-tablet-1x.png 1x,
+                  ./img/hero/tablet/john-wax-tablet-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/mobile/john-wax-mobile-1x.jpg 1x,
+                  ./img/hero/mobile/john-wax-mobile-2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/hero/john-wax-1x.png"
+                class="hero-list-item-img"
+                alt="john-wax"
+              />
+            </picture>
+          </li>
+
+          <li class="hero-list-item anastasia-trachuk">
+            <picture>
+              <source
+                srcset="
+                  ./img/hero/anastasia-trachuk-1x.png 1x,
+                  ./img/hero/anastasia-trachuk-2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/tablet/anastasia-trachuk-tablet-1x.png 1x,
+                  ./img/hero/tablet/anastasia-trachuk-tablet-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/hero/mobile/anastasia-trachuk-mobile-1x.jpg 1x,
+                  ./img/hero/mobile/anastasia-trachuk-mobile-2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/hero/anastasia-trachuk-1x.png"
+                class="hero-list-item-img"
+                alt="anastasia-trachuk"
+              />
+            </picture>
+          </li>
+        </ul>
+
+        <a class="hero-text-scroll" href="#footer">Scroll down</a>
+      </div>
+    </div>
     <picture>
       <source
         srcset="
@@ -48,8 +121,8 @@
       />
       <source
         srcset="
-          ./img/hero/tablet/hero-rectangle-1x.jpg 1x,
-          ./img/hero/tablet/hero-rectangle-2x.jpg 2x
+          ./img/hero/tablet/hero-rectangle-tablet-1x.jpg 1x,
+          ./img/hero/tablet/hero-rectangle-tablet-2x.jpg 2x
         "
         media="(min-width: 768px)"
       />
