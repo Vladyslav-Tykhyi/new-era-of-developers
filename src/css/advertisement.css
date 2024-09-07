@@ -81,7 +81,7 @@
   }
   .advertisement-text {
     font-size: 48px;
-    line-height: 0.9;
+    line-height: 0.92;
     margin-bottom: 32px;
   }
 }
@@ -109,5 +109,6 @@
   }
   .advertisement-text {
     margin: 0;
+    max-width: 725px;
   }
 }
