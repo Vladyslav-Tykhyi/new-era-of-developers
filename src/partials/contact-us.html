@@ -1,0 +1,88 @@
+<section class="contact-us" id="contact-us">
+  <div class="container contact-us-container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="desk-contact-us-form">
+      <div class="contact-us-form">
+        <div class="form-text">
+          <p class="contact-us-form-text">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <form class="form-inputs">
+            <div class="form-wrapper-cont">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-wrapper-cont">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                tel="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </div>
+            <div class="form-wrapper-cont">
+              <input
+                class="form-input"
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                title="+380-XX-XXX-XX-XX"
+                required
+              />
+            </div>
+            <div class="form-wrapper-cont-comment">
+              <textarea
+                class="comment-text"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+            <button class="form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact-us-content-img">
+        <picture>
+          <source
+            srcset="
+              ../img/contact_us/des_contact_us_1x.jpg 1x,
+              ../img/contact_us/des_contact_us_2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ../img/contact_us/tab_contact_us_1x.jpg 1x,
+              ../img/contact_us/tab_contact_us_2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../img/contact_us/mob_contact_us_1x.jpg 1x,
+              ../img/contact_us/mob_contact_us_2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            src="../img/contact_us/des_contact_us_1x.jpg"
+            alt="Rectangle 15"
+            width="335"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
