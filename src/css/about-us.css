@@ -14,24 +14,13 @@
   font-size: 32px;
   font-style: normal;
   font-family: 'Gilroy', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.02em;
   text-transform: none;
 }
-.about-us-text-one {
+.about-us-text {
   margin-bottom: 20px;
-  text-align: left;
-  color: rgba(12, 12, 12, 0.7);
-  font-size: 14px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-}
-.about-us-text-two {
-  margin-bottom: 40px;
-  text-align: left;
   color: rgba(12, 12, 12, 0.7);
   font-size: 14px;
   font-family: 'Gilroy', sans-serif;
@@ -42,6 +31,7 @@
 
 .about-link-text {
   border-radius: 16px;
+  margin-top: 40px;
 
   background-color: #3350e9;
   padding: 15px 37px;
@@ -50,6 +40,9 @@
   color: #fbfbfb;
   font-size: 14px;
   line-height: 18px;
+
+  display: block;
+  max-width: 160px;
 }
 
 .about-link-text:hover,
@@ -73,18 +66,14 @@
     font-weight: 600;
     line-height: 44px;
   }
-  .about-us-text-one {
-    max-width: 584px;
+  .about-us-text {
     color: rgba(12, 12, 12, 0.7);
     font-size: 16px;
     line-height: 20px;
   }
-  .about-us-text-two {
-    max-width: 584px;
-    margin-bottom: 60px;
-    color: rgba(12, 12, 12, 0.7);
-    font-size: 16px;
-    line-height: 20px;
+
+  .about-link-text {
+    margin-top: 60px;
   }
 }
 
@@ -99,7 +88,9 @@
   }
   .text-container {
     margin: 0px;
-    height: 532px;
+  }
+  .about-us-text {
+    max-width: 584px;
   }
   .about-us {
     margin-bottom: 100px;
@@ -107,5 +98,8 @@
   .img-container {
     display: flex;
     flex-shrink: 0;
+
+  .about-link-text {
+    margin-top: 40px;
   }
 }
