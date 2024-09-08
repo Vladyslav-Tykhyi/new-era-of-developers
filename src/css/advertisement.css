@@ -111,5 +111,6 @@
   .advertisement-text {
     margin: 0;
     max-width: 725px;
+    letter-spacing: -0.02em;
   }
 }
