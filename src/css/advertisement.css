@@ -83,6 +83,7 @@
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 32px;
+    letter-spacing: -0.034em;
   }
 }
 @media screen and (min-width: 1280px) {
