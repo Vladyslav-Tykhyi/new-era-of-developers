@@ -37,7 +37,6 @@
 }
 
 .mob-menu__open {
-  background-color: #0c0c0c;
   width: 34px;
   height: 34px;
 }
@@ -107,6 +106,10 @@
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 
+.open-mob {
+  stroke: var(--main);
+}
+
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 26px;
@@ -128,11 +131,6 @@
   .mob-menu__open,
   .mob-menu__btn {
     display: none;
-  }
-
-  .navigation {
-    margin-left: 203px;
-    margin-right: 203px;
   }
 
   .navigation__list {
@@ -195,7 +193,7 @@
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
   (min-width: 768px) and (min-resolution: 192dpi),
   (min-width: 768px) and (min-resolution: 2dppx) {
-  .hero {
+  .mob-menu {
     background-image: linear-gradient(
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
