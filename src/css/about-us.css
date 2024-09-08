@@ -28,16 +28,6 @@
   line-height: 18px;
   letter-spacing: -0.02em;
 }
-/* .about-us-text-two {
-  margin-bottom: 40px;
-  text-align: left;
-  color: rgba(12, 12, 12, 0.7);
-  font-size: 14px;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-} */
 
 .about-link-text {
   border-radius: 16px;
@@ -54,11 +44,6 @@
   display: block;
   max-width: 160px;
 }
-
-/* a {
-  display: block;
-  max-width: 160px;
-} */
 
 .about-link-text:hover,
 .about-link-text:hover {
@@ -82,18 +67,11 @@
     line-height: 44px;
   }
   .about-us-text {
-    /* max-width: 584px; */
     color: rgba(12, 12, 12, 0.7);
     font-size: 16px;
     line-height: 20px;
   }
-  /* .about-us-text-two {
-    max-width: 584px;
-    margin-bottom: 60px;
-    color: rgba(12, 12, 12, 0.7);
-    font-size: 16px;
-    line-height: 20px;
-  } */
+
   .about-link-text {
     margin-top: 60px;
   }
@@ -115,7 +93,6 @@
   }
   .text-container {
     margin: 0px;
-    /* height: 532px; */
   }
   .about-us-text {
     max-width: 584px;
