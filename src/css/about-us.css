@@ -86,10 +86,6 @@
     font-size: 16px;
     line-height: 20px;
   }
-  .img-about-us {
-    border-radius: 50px;
-    width: 704px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -100,7 +96,6 @@
     display: flex;
     align-items: center;
     gap: 40px;
-    flex-shrink: 1;
   }
   .text-container {
     margin: 0px;
@@ -108,5 +103,9 @@
   }
   .about-us {
     margin-bottom: 100px;
+  }
+  .img-container {
+    display: flex;
+    flex-shrink: 0;
   }
 }
