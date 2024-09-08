@@ -27,6 +27,9 @@
   line-height: 18px;
   letter-spacing: -0.02em;
 }
+.text-one {
+  padding-bottom: 20px;
+}
 
 .about-us-text-margin {
   margin-bottom: 20px;
@@ -42,11 +45,9 @@
   color: #fbfbfb;
   font-size: 14px;
   line-height: 18px;
-
   display: block;
   max-width: 160px;
 }
-
 .about-link-text:hover,
 .about-link-text:hover {
   background-color: #1f3cd4;
@@ -90,9 +91,6 @@
   }
   .text-container {
     margin: 0px;
-  }
-  .about-us-text {
-    max-width: 584px;
   }
   .about-us {
     margin-bottom: 100px;
