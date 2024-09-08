@@ -9,44 +9,40 @@
   margin-bottom: 20px;
 }
 .about-us-title {
+  margin-bottom: 28px;
   color: #0c0c0c;
-  text-transform: none;
-  padding-bottom: 28px;
-  font: 600 32px / 1 'Gilroy', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  line-height: 32px;
   letter-spacing: -0.02em;
-}
-.about-us-text-one {
-  max-width: 295px;
-  padding-bottom: 20px;
-  color: #0c0c0c;
-  margin-top: 0;
-  text-align: left;
-  margin-bottom: 0;
   text-transform: none;
-  font: 500 14px / 1.28571 'Gilroy', sans-serif;
-  letter-spacing: -0.02em;
 }
-.about-us-text-two {
-  max-width: 295px;
-  padding-bottom: 40px;
-  color: #0c0c0c;
-  margin-top: 0;
-  text-align: left;
-  margin-bottom: 0;
-  text-transform: none;
-  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+.about-us-text {
+  margin-bottom: 20px;
+  color: rgba(12, 12, 12, 0.7);
+  font-size: 14px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  line-height: 18px;
   letter-spacing: -0.02em;
 }
 
 .about-link-text {
   border-radius: 16px;
-  width: 160px;
-  height: 48px;
+  margin-top: 40px;
+
   background-color: #3350e9;
   padding: 15px 37px;
-  font: 500 14px / 1.28571 'Gilroy', sans-serif;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   color: #fbfbfb;
+  font-size: 14px;
+  line-height: 18px;
+
+  display: block;
+  max-width: 160px;
 }
 
 .about-link-text:hover,
@@ -62,29 +58,29 @@
     padding: 80px 60px;
     border-radius: 50px;
     margin-bottom: 40px;
-    max-width: 584px;
-    min-height: 352px;
   }
   .about-us-title {
-    padding-bottom: 40px;
-    font: 600 48px / 0.91667 'Gilroy', sans-serif;
+    margin-bottom: 40px;
+    color: #0c0c0c;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
   }
-  .about-us-text-one {
-    max-width: 584px;
-    font: 500 16px / 1.25 'Gilroy', sans-serif;
+  .about-us-text {
+    color: rgba(12, 12, 12, 0.7);
+    font-size: 16px;
+    line-height: 20px;
   }
-  .about-us-text-two {
-    max-width: 584px;
-    font: 500 16px / 1.25 'Gilroy', sans-serif;
-    padding-bottom: 60px;
-  }
-  .img-about-us {
-    border-radius: 50px;
-    width: 704px;
+
+  .about-link-text {
+    margin-top: 60px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  .about-us {
+    display: flex;
+  }
   .about-us-container {
     display: flex;
     align-items: center;
@@ -92,12 +88,17 @@
   }
   .text-container {
     margin: 0px;
-    max-width: 460px;
+  }
+  .about-us-text {
+    max-width: 584px;
   }
   .about-us {
     margin-bottom: 100px;
   }
-  .img-about-us {
-    width: 530px;
+  .img-container {
+    flex-shrink: 0;
+  }
+  .about-link-text {
+    margin-top: 40px;
   }
 }
