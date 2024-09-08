@@ -20,7 +20,7 @@
   text-transform: none;
 }
 .about-us-text {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   color: rgba(12, 12, 12, 0.7);
   font-size: 14px;
   font-family: 'Gilroy', sans-serif;
@@ -28,11 +28,13 @@
   line-height: 18px;
   letter-spacing: -0.02em;
 }
+.text-one {
+  padding-bottom: 20px;
+}
 
 .about-link-text {
   border-radius: 16px;
   margin-top: 40px;
-
   background-color: #3350e9;
   padding: 15px 37px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -40,15 +42,8 @@
   color: #fbfbfb;
   font-size: 14px;
   line-height: 18px;
-
   display: block;
   max-width: 160px;
-}
-.about-us-text p:first-child {
-  padding-bottom: 20px;
-}
-.about-us-text:last-child {
-  padding-bottom: 40px;
 }
 .about-link-text:hover,
 .about-link-text:hover {
@@ -93,9 +88,6 @@
   }
   .text-container {
     margin: 0px;
-  }
-  .about-us-text {
-    max-width: 584px;
   }
   .about-us {
     margin-bottom: 100px;
