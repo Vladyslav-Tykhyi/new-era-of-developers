@@ -31,6 +31,10 @@
   padding-bottom: 20px;
 }
 
+.about-us-text-margin {
+  margin-bottom: 20px;
+}
+
 .about-link-text {
   border-radius: 16px;
   margin-top: 40px;
@@ -92,7 +96,6 @@
     margin-bottom: 100px;
   }
   .img-container {
-    display: flex;
     flex-shrink: 0;
   }
   .about-link-text {
