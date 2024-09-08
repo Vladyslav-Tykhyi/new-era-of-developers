@@ -35,7 +35,7 @@
 .sale-watch-title {
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
@@ -47,7 +47,7 @@
 .sale-watch-tag {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
 }
@@ -63,7 +63,7 @@
 .sale-watch-price-before {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   text-decoration: line-through;
   color: rgba(251, 251, 251, 0.5);
@@ -71,13 +71,13 @@
 
 .sale-watch-description {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
 }
 
 .sale-watch-categories-item {
   font-size: 12px;
-  line-height: 1.33333;
+  line-height: 1.33;
   color: #fbfbfb;
 }
