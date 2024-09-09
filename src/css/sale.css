@@ -67,6 +67,11 @@
     margin-bottom: 100px;
   }
 
+  .sale-list-container {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+
   .sale-wrapper {
     display: flex;
   }
@@ -234,6 +239,7 @@
 @media screen and (min-width: 1280px) {
   .sale-watch-info {
     max-width: 530px;
+    margin-bottom: 0;
   }
 
   .sale-watch-title {
