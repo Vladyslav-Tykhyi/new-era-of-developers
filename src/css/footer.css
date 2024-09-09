@@ -302,5 +302,10 @@
   }
 }
 .footer-bottom-privacy {
-  padding-left: 20px;
+  margin-left: 20px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.9;
 }
