@@ -2,52 +2,32 @@
     margin: 60px 0;
 }
 
-.contact-us-container {
-    max-width: 375px;
-    padding: 0 20px;
-}
-
 .contact-us-title {
     font-size: 32px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: -0.02em;
-    text-align: left;
     color: #0c0c0c;
     margin-bottom: 24px;
 }
 
 .contact-us-form {
-    max-width: 335px;
     border-radius: 30px;
     background-color: #F3F3F3;
     margin-bottom: 20px;
     padding: 48px 28px;
 }
 
-.form-text {
-    display: block;
-    text-align: left;
-}
-
 .contact-us-form-text {
-    display: block;
-    max-width: 279px;
-    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 28px;
-    text-align: left;      
-}
-
-.form-inputs {
-    unicode-bidi: isolate;
 }
 
 .form-wrapper-cont {
-    display: flex;
+    display: block;
     margin-bottom: 18px;
 }
 
@@ -94,10 +74,11 @@
 
 .form-button {
     min-width: 134px;
-    min-height: 42px;
-    padding: 0;
+    padding: 12px 50px;
     gap: 10px;
     border-radius: 16px;
+    line-height: 129%;
+    font-size: 14px;
     border: none;
     background: #3350E9;
     color: #FBFBFB;
@@ -127,11 +108,6 @@
         margin: 80px 0;
     }
 
-    .contact-us-container {
-        max-width: 704px;
-        padding: 0;
-    }
-
     .contact-us-title {
         font-size: 48px;
         line-height: 44px;
@@ -139,18 +115,15 @@
     }
 
     .contact-us-form {
-        max-width: 704px;
         margin-bottom: 40px;
         padding: 50px 122px;
     }
 
     .form-text {
         padding: 50px 0;
-        margin: center;
     }
 
     .contact-us-form-text {
-        max-width: 460px;
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 32px;
@@ -158,7 +131,7 @@
 
     .form-button {
         min-width: 160px;
-        min-height: 52px;
+        padding: 17px 63px;
     }
 
     .form-wrapper-cont-comment {
