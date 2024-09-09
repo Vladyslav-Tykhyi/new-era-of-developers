@@ -155,7 +155,7 @@
   }
 }
 .footer-phone {
-  border: 1px solid rgba(251, 251, 251, 0.2);
+  outline: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
   width: 152px;
   height: 44px;
@@ -183,7 +183,6 @@
     height: 48px;
     margin: 0;
     border: none;
-    outline: 1px solid rgba(251, 251, 251, 0.2);
   }
 }
 @media screen and (min-width: 1280px) {

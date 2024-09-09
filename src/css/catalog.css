@@ -10,6 +10,7 @@
   color: #0c0c0c;
   margin-bottom: 24px;
 }
+
 .catalog-list {
   display: flex;
   flex-direction: column;
@@ -75,6 +76,7 @@
   .catalog-title {
     font-size: 48px;
     line-height: 0.9;
+    margin-bottom: 40px;
   }
   .catalog-list {
     flex-direction: row;
