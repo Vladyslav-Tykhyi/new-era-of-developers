@@ -1,14 +1,17 @@
 .footer {
-  background-color: #0c0c0c;
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 28px 28px 28px;
+  background-color: #0c0c0c;
+  max-width: 335px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .footer {
     padding: 40px 40px 28px 40px;
+    max-width: 704px;
   }
 }
 .footer-box {
@@ -23,6 +26,9 @@
 @media screen and (min-width: 1280px) {
   .footer-box {
     width: 1136px;
+  }
+  .footer {
+    max-width: 1216px;
   }
 }
 .footer-top-title {
