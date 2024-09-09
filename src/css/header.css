@@ -39,6 +39,7 @@
 .mob-menu__open {
   width: 34px;
   height: 34px;
+  stroke: var(--main);
 }
 
 .navigation__list {
@@ -106,10 +107,6 @@
   border: 1px solid rgba(51, 80, 233, 0.1);
 }
 
-.open-mob {
-  stroke: var(--main);
-}
-
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 26px;
@@ -158,7 +155,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url(../img/menu_img/menu-mob.jpg);
+    url(/img/menu_img/menu-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -174,7 +171,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/menu_img/menu-mob-x2.jpg);
+      url(/img/menu_img/menu-mob-x2.jpg);
   }
 }
 
@@ -186,7 +183,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/menu_img/menu-tab.jpg);
+      url(/img/menu_img/menu-tab.jpg);
   }
 }
 
@@ -198,7 +195,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/menu_img/menu-tab-x2.jpg);
+      url(/img/menu_img/menu-tab-x2.jpg);
   }
 }
 
@@ -222,8 +219,11 @@
   position: absolute;
   right: 20px;
   top: 20px;
-  background-color: aquamarine;
   z-index: 4;
+}
+
+.mob-menu__close {
+  stroke: var(--background);
 }
 
 .navigation-menu__list {
@@ -279,11 +279,18 @@
 .soc-list__menu .soc__icon {
   width: 18px;
   height: 18px;
-  fill: var(--background);
+  fill: rgba(251, 251, 251, 0.8);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: fill 250ms var(--timing-function);
 }
 
-.soc-list__menu .soc__item:hover .soc__icon {
+.soc-list__menu .soc__link:hover,
+.soc-list__menu .soc__link:focus {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+}
+
+.soc-list__menu .soc__item:hover .soc__icon,
+.soc-list__menu .soc__item:focus .soc__icon {
   fill: var(--background);
 }
 
@@ -292,6 +299,26 @@
   .soc-list__menu .soc__link {
     width: 36px;
     height: 36px;
+  }
+
+  .soc-list__menu .soc__link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .soc-list__menu .soc__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .mob-menu .mob-menu__btn {
+    right: 25px;
+    top: 32px;
+  }
+
+  .mob-menu__close {
+    width: 40px;
+    height: 40px;
   }
 }
 
