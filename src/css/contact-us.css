@@ -22,10 +22,10 @@
     border-radius: 30px;
     background-color: #F3F3F3;
     margin-bottom: 20px;
+    padding: 48px 28px;
 }
 
 .form-text {
-    padding: 48px 28px;
     display: block;
     text-align: left;
 }
@@ -49,14 +49,14 @@
 .form-wrapper-cont {
     display: flex;
     margin-bottom: 18px;
-    height: 42px;
 }
 
 .form-input {
     font-family: 'Girloy', sans-serif;
     width: 100%;
     border-radius: 12px;
-    padding-left: 14px;
+    height: 42px;
+    padding: 12px 14px;
     border: 1px solid #0C0C0C26;
     opacity: 0px;
     outline: none;
@@ -93,8 +93,8 @@
 }
 
 .form-button {
-    width: 134px;
-    height: 42px;
+    min-width: 134px;
+    min-height: 42px;
     padding: 0;
     gap: 10px;
     border-radius: 16px;
@@ -117,7 +117,6 @@
 }
 
 .contact-us-content-img {
-    max-width: 335px;
     overflow: hidden;
     border-radius: 30px;
 }
@@ -130,7 +129,7 @@
 
     .contact-us-container {
         max-width: 704px;
-        padding: 0 32px;
+        padding: 0;
     }
 
     .contact-us-title {
@@ -142,11 +141,12 @@
     .contact-us-form {
         max-width: 704px;
         margin-bottom: 40px;
+        padding: 50px 122px;
     }
 
     .form-text {
-        max-width: 460px;
-        padding: 50px 60px;
+        padding: 50px 0;
+        margin: center;
     }
 
     .contact-us-form-text {
@@ -157,8 +157,8 @@
     }
 
     .form-button {
-        width: 160px;
-        height: 52px;
+        min-width: 160px;
+        min-height: 52px;
     }
 
     .form-wrapper-cont-comment {
@@ -166,17 +166,14 @@
         height: 90px;
     }
 
-    .form-wrapper-cont {
+    .form-input {
         height: 52px;
+        padding: 16px 18px;
     }
 
-    .form-input, .comment-text {
+    .comment-text {
         font-size: 16px;
         line-height: 20px;
-    }
-
-    .contact-us-content-img {
-        max-width: 704px;
     }
 
     .contact-us-content-img img {
@@ -192,29 +189,25 @@
 
     .contact-us-container {
         max-width: 1150px;
-        padding: 0 32px;
     }
 
-    .desk-contact-us-form {
+    .form-text {
         display: flex;
+        flex-wrap: nowrap;
         gap: 40px;
-        max-height: 556px;
-    }
+        padding: 0;
+    } 
 
-    .contact-us-form, .contact-us-content-img {
-        display: flex;
-        max-height: 556px;
+    .form-inputs {
+        width: 100%;
     }
 
     .contact-us-form {
+        display: flex;
         max-width: 580px;
         margin: 0;
+        padding: 50px 60px;
+        flex-wrap: wrap;
 
-    }
-
-    .contact-us-content-img {
-        max-width: 530px;
-
-    }
-    
+    } 
 }
