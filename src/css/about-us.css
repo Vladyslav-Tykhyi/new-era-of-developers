@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 .text-container {
   background: #f3f3f3;
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .text-container {
     padding: 80px 60px;
@@ -93,7 +93,7 @@
     margin: 0px;
   }
   .about-us {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .img-container {
     flex-shrink: 0;

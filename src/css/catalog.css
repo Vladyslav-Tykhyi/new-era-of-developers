@@ -1,5 +1,5 @@
 .catalog {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .catalog-title {
@@ -71,7 +71,7 @@
 }
 @media screen and (min-width: 768px) {
   .catalog {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .catalog-title {
     font-size: 48px;
@@ -82,6 +82,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
   .catalog-item {
     flex-basis: calc((100% - 16px) / 2);
@@ -107,7 +108,7 @@
 }
 @media screen and (min-width: 1280px) {
   .catalog {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .catalog-list {
     gap: 32px 23px;

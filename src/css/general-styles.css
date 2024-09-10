@@ -1,21 +1,10 @@
-@font-face {
-  font-family: 'Gilroy';
-  src: url('Gilroy-Medium.eot');
-  src: local('Gilroy Medium'), local('Gilroy-Medium'),
-    url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
-    url('Gilroy-Medium.woff2') format('woff2'),
-    url('Gilroy-Medium.woff') format('woff'),
-    url('Gilroy-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
 body {
   font-family: 'Girloy', sans-serif;
   box-sizing: border-box;
   background: #fbfbfb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
 }
 
 .container {

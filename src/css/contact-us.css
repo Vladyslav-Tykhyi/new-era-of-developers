@@ -1,5 +1,5 @@
 .contact-us {
-  margin: 60px 0;
+  padding: 60px 0;
 }
 
 .contact-us-title {
@@ -106,7 +106,7 @@
 
 @media screen and (min-width: 768px) {
   .contact-us {
-    margin: 80px 0;
+    padding: 80px 0;
   }
 
   .contact-us-title {
@@ -153,7 +153,7 @@
 
 @media screen and (min-width: 1280px) {
   .contact-us {
-    margin: 100px 0;
+    padding: 100px 0;
   }
 
   .contact-us-container {
