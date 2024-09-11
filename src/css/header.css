@@ -61,7 +61,8 @@
   color: var(--main);
 }
 
-.navigation__link:hover::after {
+.navigation__link:hover::after,
+.navigation__link:focus::after {
   position: absolute;
   content: ' ';
   bottom: -14px;
