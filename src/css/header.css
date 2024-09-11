@@ -158,9 +158,13 @@
     url(/img/menu_img/menu-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  .mob-menu {
+    background-position: center center;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
